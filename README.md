@@ -1,5 +1,24 @@
+---
+title: "HPC 자원 활용 테스트 리포트"
+author: (주)대진디엠피 헬스케어사업팀 김동호 파트장
+date: 2017-11-30
+geometry: "left=3cm,right=2cm,top=3cm,bottom=2cm"
+mainfont: Noto Sans CJK KR
+monofont: D2Coding
+fontsize: 10pt
+papersize: "a4paper"
+header-includes:
+ - \usepackage{fancyhdr}
+ - \pagestyle{fancy}
+ - \fancyhead[CO,CE]{(주)대진디엠피}
+ - \fancyfoot[CO,CE]{HPC이노베이션허브}
+ - \fancyfoot[LE,RO]{\thepage}
+output: pdf_document
+---
+
 
 # HPC 자원 활용 테스트 리포트
+
 
 ## HPC 자원 제공 기관
 * 기관명 : HPC 이노베이션 허브
@@ -110,7 +129,7 @@ mpirun -np 44 ElmerSolver_mpi
 
 ![MPI 계산중](img/003.png)
 
- 
+
 
 ## Salome Platform 설치
 
@@ -204,7 +223,4 @@ rm Salome.tgz
 * 예기치 못한 문제점 : 원격지에서 접근이 안되어 아쉬움 (50%)
 * 실제 실무 문제해결에 사용이 가능 여부 : 가능 (100%)
 
-
-
-
-
+__금번 테스트 활용을 통해, 오픈소스 Elmer FEM Solver 적용이 용이함을 확인하고, 특히 성능향상폭이 높다는 사실을 성공적으로 검증하였고, 실무 문제 해결에 적용 가능함을 입증하였음.__
