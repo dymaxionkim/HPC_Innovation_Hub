@@ -169,7 +169,7 @@ rm Salome.tgz
 
 ![계산결과 가시화 (열전달 및 유선 상태)](img/004.png)
 
-[유튜브 계산결과]](https://youtu.be/ku7TMyk6pO4)
+[유튜브 계산결과](https://youtu.be/ku7TMyk6pO4)
 
 
 ## 테스트 활용 소감
