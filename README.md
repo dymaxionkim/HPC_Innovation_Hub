@@ -166,10 +166,9 @@ rm Salome.tgz
 * Simulation Condition : Steady State, Transient
 * 계산 퍼포먼스의 향상 : PC와 직접 정량 비교는 하지 못했으나, 대체로 30배 이상 더 빠르게 향상되었음. (PC에서 4개 코어로 200샷을 계산하는데 48시간 가량 소요되었는데, 동일 조건에서 HPC는 44개 코어로 늦어도 1.5시간 이내에 완료되는 수준)
 * 1/100초 단위로 쪼개서 3000 shots Transient 계산 성공 (약 18시간 소요) : 결과물 데이타 용량 23GB 가량, 데이타 파일수 약13만5천개
+* [유튜브 계산결과](https://youtu.be/ku7TMyk6pO4)
 
 ![계산결과 가시화 (열전달 및 유선 상태)](img/004.png)
-
-[유튜브 계산결과](https://youtu.be/ku7TMyk6pO4)
 
 
 ## 테스트 활용 소감
